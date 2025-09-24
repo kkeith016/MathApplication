@@ -54,6 +54,11 @@ public class MathApp {
         long minutesPerHour = 60L;
         long minutesIn24Days = days * hoursPerDay*minutesPerHour;
 
+        long secondsPerMinute = 60L;
+        long msPerSecond = 1000L;
+        long millisecondsIn24Days = minutesIn24Days * secondsPerMinute * msPerSecond;
+        System.out.println(millisecondsIn24Days);
+
 
     }
 }
