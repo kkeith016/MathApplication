@@ -28,16 +28,18 @@ public class MathApp {
         System.out.println(squared);
 
         //Distance between (5,10) and (85,50)
-        double pointAX = 5;
-        double pointAY= 10;
-        double pointBX = 85;
-        double pointBY = 50;
+        double pointax = 5;
+        double pointay= 10;
+        double pointbx = 85;
+        double pointby = 50;
 
-        double dx = pointBX - pointAX; // 85 - 5 = 80
-        double dy = pointBY - pointAY; // 50 - 10 = 40
+        double dx = pointbx - pointax; // 85 - 5 = 80
+        double dy = pointby - pointay; // 50 - 10 = 40
 
         double distance = Math.hypot(dx, dy);
         System.out.println(distance);
+
+        
 
     }
 }
