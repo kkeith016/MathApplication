@@ -59,6 +59,5 @@ public class MathApp {
         long millisecondsIn24Days = minutesIn24Days * secondsPerMinute * msPerSecond;
         System.out.println(millisecondsIn24Days);
 
-
     }
 }
