@@ -44,7 +44,11 @@ public class MathApp {
         double absoluteValue = Math.abs(negNumber);
         System.out.println(absoluteValue);
 
-        
+        //Random Number
+        double random = Math.random();
+        System.out.println(random);
+
+        // Minutes in 24 Days
 
     }
 }
