@@ -22,5 +22,10 @@ public class MathApp {
         double circleArea = Math.PI * radius;
         System.out.println(circleArea);
 
+        //Square Root
+        double value = 5.0;
+        double squared = Math.sqrt(value);
+        System.out.println(squared);
+
     }
 }
