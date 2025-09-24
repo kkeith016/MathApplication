@@ -39,6 +39,11 @@ public class MathApp {
         double distance = Math.hypot(dx, dy);
         System.out.println(distance);
 
+        //absolute value
+        double negNumber = -3.8;
+        double absoluteValue = Math.abs(negNumber);
+        System.out.println(absoluteValue);
+
         
 
     }
