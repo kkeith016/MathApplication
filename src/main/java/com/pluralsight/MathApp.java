@@ -49,6 +49,11 @@ public class MathApp {
         System.out.println(random);
 
         // Minutes in 24 Days
+        long days = 24L;
+        long hoursPerDay = 24L;
+        long minutesPerHour = 60L;
+        long minutesIn24Days = days * hoursPerDay*minutesPerHour;
+
 
     }
 }
